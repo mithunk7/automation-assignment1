@@ -1,7 +1,7 @@
 import test, {Browser,BrowserContext,Page,chromium, expect  } from "@playwright/test";
 import loginPage from "../page/login.page";
 import url from "../utilities/url";
-import * as data from "../../example_a/data/login.cred.json";
+import * as data from "../data/login.cred.json";
 import Headerpage from "../page/header.page";
 import Overview from "../page/overview.page";
 import Productpage from "../page/product.page";
